@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --f-font:"Rethink Sans", sans-serif;
+    --s-font:"Poppins", sans-serif;
+    --n-blue:#283593;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.lib-name{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size:20px;
+    text-transform: uppercase;
+}
+.nav-bar{
+    align-self: center;
+}
+#first{
+    margin-left: 14px;
+    font-size:22px;
+    color: black;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+#second{
+    letter-spacing: 5px;
+    color: chocolate;
+    font-weight: 900;
+}
+li{
+    display: inline;
+    margin-right: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.15ms;
+}
+a:hover{
+    border-bottom: 2px solid chocolate;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(173, 216, 230, 0.7));
+}
+.text{
+    width: 50%;
+    font-family: "Rethink Sans", sans-serif;
+    font-size:20px;
+    text-transform: uppercase;
+    position: relative;
+}
+#text1{
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+    font-size: 40px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    line-height: 80px;
+    font-weight: 900;
+}
+span{
+    color: var(--n-blue) ;
+}
+.explore{
+    position: absolute;
+    display: inline-block;
+    top: 55%;
+    left: 25%;
+    background-color:var(--n-blue);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 150px;
+    transition: all 0.15ms;
+}
+.login h3{
+    text-align: center;
+    font-family: var(--s-font);
+    letter-spacing: 1px;
+    color:var(--n-blue);
+}
+.login{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    border: 2px solid  black;
+    margin : 0px 400px;
+    border-radius: 5px;
+    background: linear-gradient(to top, #f4f4f4, #ffffff);
+}
+.login_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    margin-bottom: 70px;
+}
+.ali li{
+    display: block;
+    word-spacing: 5px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+label,select,text{
+    display: block;
+    margin: 10px;
+    font-family: var(--s-font);
+    font-size: 18px;
+    font-weight: bold;
+}
+input{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    display: block;
+    border-radius: 5px;
+    border: 2px solid gray;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--s-font);
+}
+textarea{
+    font-size: 18px;
+}
+.login_button{
+    position: absolute;
+    margin-top: 10px;
+    left: 580px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+    width:80px;
+    background-color: var(--n-blue);
+    transition: all 0.15ms;
+}
+.login_button h3{
+    color: white;
+    font-family:var(--s-font);
+    padding: 10px;
+}
+#welcome{
+    font-family: var(--s-font);
+    word-spacing: 6px;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    color:black;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+table td,th{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-family: var(--f-font);
+}
+button:hover{
+    opacity: 0.8;
+}
+button h3{
+    color: white;
+    font-family:var(--s-font);
+    letter-spacing: 3px;
+    padding: 15px;
+}
+.img{
+    width: 50%;
+}
+.img img{
+    width: 100%;
+}
+.about-section{
+     padding: 20px 50px;
+     background: linear-gradient(to left, rgba(7, 39, 201, 0.505), rgba(9, 12, 212, 0.667));
+}
+.about-section{
+    text-transform: capitalize;
+    line-height: 35px;
+    word-spacing: 3px;
+}
+.about-section h3,h4{
+    text-align: center;
+    font-family: var(--f-font);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+.about-section h4{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.about-section p{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+    padding: 20px;;
+}
+.about{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.news{
+    margin: 40px 0px;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+.news p{
+    font-family: var(--f-font);
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 600;
+    color:#001089;
+    letter-spacing: 1px;
+}
+#new{
+    font-size: 21px;
+    word-spacing: 5px;
+    color: black;
+}
+#msg{
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.reviews-box
+{
+    background-color: rgba(206, 206, 206, 0.244);
+    text-align: center;
+    padding-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.reviews{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 2rem;
+}
+.r{
+    border-radius: 20px;
+    padding: 20px;
+    background-color:white;
+    font-family: var(--s-font);
+    text-transform: capitalize;
+    line-height: 30px;
+    word-spacing: 3px;
+    transition: all 0.30ms;
+    cursor: pointer;
+    text-align: center;
+}
+.star{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.r:hover{
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.3);
+}
+.footer{
+    display: flex;
+    padding: 50px 0px;
+    margin: 20px 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+.email{
+    font-family: var(--f-font);
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
